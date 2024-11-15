@@ -203,7 +203,11 @@ Normally you’d want to do this with Group Policy that allows you to change MAN
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Screenshot 2024-11-14 162258](https://github.com/user-attachments/assets/2aa9b321-7678-4281-b3c5-79ba6574322a)
+
+![Screenshot 2024-11-14 162455](https://github.com/user-attachments/assets/f6bf05db-c153-4956-81da-2408753e3469)
+
 </p>
 <p>
 
@@ -215,7 +219,7 @@ Login to DC-1 as jane_admin
 
 Open PowerShell_ise as an administrator
 
-Create a new File and paste the contents of the script into it:
+Create a new File and paste the contents of the [script](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it:
 
 Run the script and observe the accounts being created
 
@@ -224,6 +228,24 @@ attempt to log into Client-1 with one of the accounts (take note of the password
 
 </p>
 <br />
+
+
+DEALING WITH ACCOUNT LOCKOUTS/ ENABLING AND DISABLING ACCOUNTS/ OBSERVING LOGS
+
+Dealing with Account Lockouts
+
+Get logged into dc-1
+
+Pick a random user account you created previously
+
+Attempt to log in with it 10 times with a bad password
+
+Configure Group Policy to Lockout the account after 5 attempts:
+
+
+[How to Configure Account Lockout Procedure](https://github.com/jhweatherholtz/account-lockout) 
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
