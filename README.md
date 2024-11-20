@@ -53,7 +53,7 @@ Password: Cyberlab123!
 
 After VM is created, set Domain Controller’s NIC Private IP address to be static (Picture 3)
 
-Log into the VM and disable the Windows Firewall (for testing connectivity) (Picture 4)
+Log into the VM and disable the Windows Firewall, through each tab of the firewall popup page. (for testing connectivity) (Picture 4)
 
 </p>
 <br />
