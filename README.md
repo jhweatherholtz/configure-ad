@@ -71,7 +71,7 @@ Username: labuser
 
 Password: Cyberlab123!
 
-Attach it to the same region and Virtual Network as DC-1
+Attach it to the same region and Virtual Network as DC-1 (if using East US use East US for both the server and VM), I used Brazil for each of these to work with the parameters of Azure free subscription.
 
 After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
 
